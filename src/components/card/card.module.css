@@ -7,4 +7,9 @@
     border-radius: 20px;
     box-shadow: 2px 2px 7px #333333;
     text-align: center;
+    transition: 0.4s;
+}
+
+.cardComponent:hover{
+    transform: scale(1.03);   
 }
