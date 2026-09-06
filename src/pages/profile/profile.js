@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const ProfilePage = () => {
 
-    const [text,setText] = useState("");
+    const [text,setText] = useState("Your text");
     const [displayText, setDisplayText] = useState("");
     const [count,setCount] = useState(0);
 
@@ -63,7 +63,7 @@ const ProfilePage = () => {
 
                 <div className={styles.heroImg}>
                 
-                    <img src="./profile.jpeg" className={styles.heroImg}/>
+                    <img src="./profile.jpeg" alt="hero image" className={styles.heroImg}/>
                 
                 </div>
 
@@ -125,9 +125,9 @@ const ProfilePage = () => {
                                 
                             </i>
 
-                            <p>
+                            <h3>
                                 {count}
-                            </p>
+                            </h3>
 
                     </div>
 

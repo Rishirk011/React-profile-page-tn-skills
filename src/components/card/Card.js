@@ -11,7 +11,7 @@ const Card = () => {
                     {activity.title}
                 </h3>
 
-                <img src={activity.img} width={'75px'} style={{ margin: '0.5rem' }} />
+                <img src={activity.img} alt="" width={'75px'} style={{ margin: '0.5rem' }} />
 
                 <p style={{ margin: '0.25rem 0' }}>
                     {activity.desc}
