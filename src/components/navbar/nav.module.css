@@ -1,0 +1,10 @@
+.navbar{
+    padding: 0.25rem;
+    position: sticky;
+    top: 0;
+}
+.navbar .navTitle{
+    display: block;
+    color: rgb(228, 198, 6);
+    margin-left: 0.25rem;
+}

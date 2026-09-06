@@ -1,0 +1,10 @@
+.cardComponent{
+    width: 100%;
+    max-width: 250px;
+    border: 2px solid rgb(228,196,6);
+    background-color: var(--bgClr);
+    padding: 0.75rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #333333;
+    text-align: center;
+}

@@ -1,8 +1,8 @@
-import ProfileCard from "./pages/profile/profile";
+import ProfilePage from "../src/pages/profile/profile"
 
 function App() {
   return <>
-    <ProfileCard/>
+    <ProfilePage/>
   </>
 }
 
