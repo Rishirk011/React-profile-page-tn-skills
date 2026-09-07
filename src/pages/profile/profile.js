@@ -12,6 +12,9 @@ const ProfilePage = () => {
 
     const changeText = (e) =>{
 
+        if(displayText === "")
+            return;
+        
         setText(displayText);
         setDisplayText("");
     }
