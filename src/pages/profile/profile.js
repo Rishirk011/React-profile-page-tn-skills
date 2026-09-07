@@ -26,7 +26,7 @@ const ProfilePage = () => {
                     
                     <div className="otherText">
                     
-                        <pre style={{fontSize:'2rem'}}>
+                        <pre style={{fontSize:'2rem'}} className={styles.heroTxt}>
                             Hi there! this is
                             <h2 className='highlightText' style={{fontSize:'2rem'}}>RishiKesh K</h2>
                                 i'm pursuing my b.sc cs degree in <br/>
